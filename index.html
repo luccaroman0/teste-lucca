@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Lamp Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="lamp-wrapper">
+        <svg class="lamp-svg" viewBox="0 0 200 300">
+            <ellipse class="lamp-glow" cx="100" cy="140" rx="70" ry="90"></ellipse>
+            <rect class="lamp-base" x="80" y="150" width="40" height="100" rx="10"></rect>
+            <ellipse class="lamp-shade" cx="100" cy="120" rx="80" ry="60"></ellipse>
+        </svg>
+
+        <div class="toggle">
+            <button onclick="toggleLamp()">Ligar/Desligar</button>
+        </div>
+    </div>
+
+    <div class="login-box">
+        <h2>Login</h2>
+        <input type="text" placeholder="Usuário">
+        <input type="password" placeholder="Senha">
+        <button>Entrar</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
